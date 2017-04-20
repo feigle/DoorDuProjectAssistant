@@ -1,0 +1,28 @@
+//
+//  DoorDuProjectPrefixHeader.pch
+//  DoorDuProjectAssistant
+//
+//  Created by 刘和东 on 2017/4/17.
+//  Copyright © 2017年 深圳市多度科技有限公司. All rights reserved.
+//
+
+#ifndef DoorDuProjectPrefixHeader_pch
+#define DoorDuProjectPrefixHeader_pch
+#ifdef __OBJC__
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+/**登录状态的宏定义*/
+#define KNOTIFICATION_LOGINCHANGE @"loginStatusChange"
+
+#import "SystemNSEnumHeader.h"
+#import "DDScreenFitterHeaderHeader.h"
+#import "SystemStaticInlineHeader.h"
+#import "SystemMacroHeader.h"
+#import "SystemColorHeader.h"
+
+#endif /* DoorDuProjectPrefixHeader_pch */
+#endif /* DoorDuProjectPrefixHeader_pch */
