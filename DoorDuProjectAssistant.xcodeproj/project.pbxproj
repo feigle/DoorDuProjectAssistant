@@ -13,6 +13,7 @@
 		721CD1851EA856D00049068C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1841EA856D00049068C /* libz.tbd */; };
 		721CD1871EA856DB0049068C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1861EA856DB0049068C /* libc++.tbd */; };
 		721CD18A1EA857130049068C /* AppDelegate+ConfigThirdLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */; };
+		721CD19C1EA899B60049068C /* UITabBar+LHDExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD19B1EA899B60049068C /* UITabBar+LHDExtend.m */; };
 		728DF5E41EA4573D00AB68DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF5E31EA4573D00AB68DD /* main.m */; };
 		728DF5EF1EA4573D00AB68DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5EE1EA4573D00AB68DD /* Assets.xcassets */; };
 		728DF5F21EA4573D00AB68DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5F01EA4573D00AB68DD /* LaunchScreen.storyboard */; };
@@ -136,6 +137,8 @@
 		721CD1861EA856DB0049068C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		721CD1881EA857130049068C /* AppDelegate+ConfigThirdLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ConfigThirdLibrary.h"; sourceTree = "<group>"; };
 		721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ConfigThirdLibrary.m"; sourceTree = "<group>"; };
+		721CD19A1EA899B60049068C /* UITabBar+LHDExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+LHDExtend.h"; sourceTree = "<group>"; };
+		721CD19B1EA899B60049068C /* UITabBar+LHDExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+LHDExtend.m"; sourceTree = "<group>"; };
 		728DF5DF1EA4573D00AB68DD /* DoorDuProjectAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDuProjectAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728DF5E31EA4573D00AB68DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		728DF5EE1EA4573D00AB68DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -755,6 +758,8 @@
 				728DF6C31EA4C39500AB68DD /* UILabel+LHDStringSize.m */,
 				728DF6C41EA4C39500AB68DD /* UIView+LHDClickedHandle.h */,
 				728DF6C51EA4C39500AB68DD /* UIView+LHDClickedHandle.m */,
+				721CD19A1EA899B60049068C /* UITabBar+LHDExtend.h */,
+				721CD19B1EA899B60049068C /* UITabBar+LHDExtend.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1260,6 +1265,7 @@
 				72D84C5E1EA74834009A17AB /* PAAfterSaleMainTabBarController.m in Sources */,
 				728DF6961EA4B22D00AB68DD /* UIImage+GIF.m in Sources */,
 				728DF6911EA4B22D00AB68DD /* SDWebImageDownloader.m in Sources */,
+				721CD19C1EA899B60049068C /* UITabBar+LHDExtend.m in Sources */,
 				728DF7361EA4E4C100AB68DD /* UIScrollView+MJRefresh.m in Sources */,
 				728DF7271EA4E4C100AB68DD /* MJRefreshFooter.m in Sources */,
 				728DF6331EA4AFED00AB68DD /* AutoCoding.m in Sources */,

@@ -19,5 +19,6 @@
 #import "DDVerticalButton.h"
 #import "DDHorizontalButton.h"
 #import "ControlManager.h"
+#import "UITabBar+LHDExtend.h"
 
 #endif /* LHDUIkitExtendHeader_h */

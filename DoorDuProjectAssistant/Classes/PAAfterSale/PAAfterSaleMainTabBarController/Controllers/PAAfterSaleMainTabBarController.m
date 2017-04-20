@@ -47,8 +47,8 @@
     self.tabBar.clipsToBounds = YES;
     self.tabBar.opaque = YES;
     self.viewControllers = controllerSS;
-    
-
+    [self.tabBar setTabBarItemNumbers:self.viewControllers.count];
+    [self.tabBar showRedBadgeAtItemIndex:1];
 }
 - (UITabBarItem *)createTabBarItem:(NSString *)title image:(NSString *)imageName selectedImage:(NSString *)selectedImageName
 {
