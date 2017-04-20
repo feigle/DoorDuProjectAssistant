@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721CD17E1EA8568B0049068C /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD17D1EA8568B0049068C /* Bugly.framework */; };
+		721CD1811EA856C00049068C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1801EA856C00049068C /* SystemConfiguration.framework */; };
+		721CD1831EA856C60049068C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1821EA856C60049068C /* Security.framework */; };
+		721CD1851EA856D00049068C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1841EA856D00049068C /* libz.tbd */; };
+		721CD1871EA856DB0049068C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1861EA856DB0049068C /* libc++.tbd */; };
+		721CD18A1EA857130049068C /* AppDelegate+ConfigThirdLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */; };
 		728DF5E41EA4573D00AB68DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF5E31EA4573D00AB68DD /* main.m */; };
 		728DF5EF1EA4573D00AB68DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5EE1EA4573D00AB68DD /* Assets.xcassets */; };
 		728DF5F21EA4573D00AB68DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5F01EA4573D00AB68DD /* LaunchScreen.storyboard */; };
@@ -123,6 +129,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		721CD17D1EA8568B0049068C /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		721CD1801EA856C00049068C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		721CD1821EA856C60049068C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		721CD1841EA856D00049068C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		721CD1861EA856DB0049068C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		721CD1881EA857130049068C /* AppDelegate+ConfigThirdLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ConfigThirdLibrary.h"; sourceTree = "<group>"; };
+		721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ConfigThirdLibrary.m"; sourceTree = "<group>"; };
 		728DF5DF1EA4573D00AB68DD /* DoorDuProjectAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDuProjectAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728DF5E31EA4573D00AB68DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		728DF5EE1EA4573D00AB68DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -335,6 +348,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721CD1871EA856DB0049068C /* libc++.tbd in Frameworks */,
+				721CD1851EA856D00049068C /* libz.tbd in Frameworks */,
+				721CD1831EA856C60049068C /* Security.framework in Frameworks */,
+				721CD1811EA856C00049068C /* SystemConfiguration.framework in Frameworks */,
+				721CD17E1EA8568B0049068C /* Bugly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +373,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721CD17C1EA8567B0049068C /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				721CD17D1EA8568B0049068C /* Bugly.framework */,
+			);
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		721CD17F1EA856BF0049068C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				721CD1861EA856DB0049068C /* libc++.tbd */,
+				721CD1841EA856D00049068C /* libz.tbd */,
+				721CD1821EA856C60049068C /* Security.framework */,
+				721CD1801EA856C00049068C /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		728DF5D61EA4573D00AB68DD = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +399,7 @@
 				728DF5FB1EA4573D00AB68DD /* DoorDuProjectAssistantTests */,
 				728DF6061EA4573D00AB68DD /* DoorDuProjectAssistantUITests */,
 				728DF5E01EA4573D00AB68DD /* Products */,
+				721CD17F1EA856BF0049068C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -444,6 +482,8 @@
 				728DF61B1EA49DC600AB68DD /* AppDelegate.m */,
 				72D84C1C1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.h */,
 				72D84C1D1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.m */,
+				721CD1881EA857130049068C /* AppDelegate+ConfigThirdLibrary.h */,
+				721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */,
 			);
 			path = AppDelegateAndCategory;
 			sourceTree = "<group>";
@@ -451,6 +491,7 @@
 		728DF6181EA4596800AB68DD /* ThirdLibrary(第三方库文件) */ = {
 			isa = PBXGroup;
 			children = (
+				721CD17C1EA8567B0049068C /* Bugly */,
 				728DF6F51EA4E4C000AB68DD /* MJRefresh */,
 				728DF69D1EA4B51200AB68DD /* FLAnimatedImage */,
 				728DF65E1EA4B22D00AB68DD /* SDWebImage */,
@@ -1218,6 +1259,7 @@
 				728DF7361EA4E4C100AB68DD /* UIScrollView+MJRefresh.m in Sources */,
 				728DF7271EA4E4C100AB68DD /* MJRefreshFooter.m in Sources */,
 				728DF6331EA4AFED00AB68DD /* AutoCoding.m in Sources */,
+				721CD18A1EA857130049068C /* AppDelegate+ConfigThirdLibrary.m in Sources */,
 				728DF69A1EA4B22D00AB68DD /* UIImageView+WebCache.m in Sources */,
 				728DF6F11EA4CFC700AB68DD /* DDTableViewController.m in Sources */,
 				728DF72C1EA4E4C100AB68DD /* MJRefreshBackGifFooter.m in Sources */,
@@ -1415,6 +1457,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DoorDuProjectAssistant/DoorDuProjectAssistant.entitlements;
 				DEVELOPMENT_TEAM = 7G5HR36TYN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DoorDuProjectAssistant/ThirdLibrary/Bugly",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DoorDuProjectAssistant/DoorDuProjectPrefixHeader.pch";
 				INFOPLIST_FILE = DoorDuProjectAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1429,6 +1475,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DoorDuProjectAssistant/DoorDuProjectAssistant.entitlements;
 				DEVELOPMENT_TEAM = 7G5HR36TYN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DoorDuProjectAssistant/ThirdLibrary/Bugly",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DoorDuProjectAssistant/DoorDuProjectPrefixHeader.pch";
 				INFOPLIST_FILE = DoorDuProjectAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
