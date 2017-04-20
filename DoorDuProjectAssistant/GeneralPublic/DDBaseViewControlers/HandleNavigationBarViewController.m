@@ -7,6 +7,7 @@
 //
 
 #import "HandleNavigationBarViewController.h"
+#import "UIViewController+BackButtonHandler.h"
 
 @interface HandleNavigationBarViewController ()
 
@@ -24,7 +25,7 @@
 - (void)configUI
 {
     [self.navigationItem.backBarButtonItem setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:5]} forState:UIControlStateNormal];
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(doBackAction)];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(navibarLeftBtnClick:)];
     self.navigationItem.backBarButtonItem = item;
     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, 0) forBarMetrics:UIBarMetricsDefault];
 }
@@ -113,6 +114,12 @@
         [self dismissViewControllerAnimated:YES completion:^{
         }];
     }
+}
+
+- (BOOL)navigationShouldPopOnBackButton
+{
+    [self navLeftItemClick:0];
+    return NO;
 }
 
 - (void)navRightItemClick:(NSInteger)index

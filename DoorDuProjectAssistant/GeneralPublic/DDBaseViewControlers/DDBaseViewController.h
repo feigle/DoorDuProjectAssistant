@@ -52,7 +52,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) CallBackRefreshDataBlock retrunRefreshBlock;
 - (void)returnRefreshCallBlock:(__autoreleasing CallBackRefreshDataBlock)block;
 
-- (void)doBackAction;
 
 @end
 NS_ASSUME_NONNULL_END

@@ -922,22 +922,23 @@
 		72D84C451EA7469E009A17AB /* PAAfterSale(售后) */ = {
 			isa = PBXGroup;
 			children = (
-				72D84C461EA74834009A17AB /* PAAfterSaleHomePage */,
-				72D84C4C1EA74834009A17AB /* PAAfterSaleMainTabBarController */,
-				72D84C511EA74834009A17AB /* PAAfterSalePersonalCenter */,
-				72D84C571EA74834009A17AB /* PAAfterSaleTask */,
+				72D84C4C1EA74834009A17AB /* PAAfterSaleMainTabBarController(控制器) */,
+				72D84C461EA74834009A17AB /* PAAfterSaleHomePage(主页) */,
+				72D84C511EA74834009A17AB /* PAAfterSalePersonalCenter(我的) */,
+				72D84C571EA74834009A17AB /* PAAfterSaleTask(任务) */,
 			);
 			name = "PAAfterSale(售后)";
 			path = PAAfterSale;
 			sourceTree = "<group>";
 		};
-		72D84C461EA74834009A17AB /* PAAfterSaleHomePage */ = {
+		72D84C461EA74834009A17AB /* PAAfterSaleHomePage(主页) */ = {
 			isa = PBXGroup;
 			children = (
 				72D84C471EA74834009A17AB /* Controllers */,
 				72D84C4A1EA74834009A17AB /* Models */,
 				72D84C4B1EA74834009A17AB /* Views */,
 			);
+			name = "PAAfterSaleHomePage(主页)";
 			path = PAAfterSaleHomePage;
 			sourceTree = "<group>";
 		};
@@ -964,12 +965,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		72D84C4C1EA74834009A17AB /* PAAfterSaleMainTabBarController */ = {
+		72D84C4C1EA74834009A17AB /* PAAfterSaleMainTabBarController(控制器) */ = {
 			isa = PBXGroup;
 			children = (
 				72D84C4D1EA74834009A17AB /* Controllers */,
 				72D84C501EA74834009A17AB /* PAAfterSaleMainTabBarImages.xcassets */,
 			);
+			name = "PAAfterSaleMainTabBarController(控制器)";
 			path = PAAfterSaleMainTabBarController;
 			sourceTree = "<group>";
 		};
@@ -982,13 +984,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		72D84C511EA74834009A17AB /* PAAfterSalePersonalCenter */ = {
+		72D84C511EA74834009A17AB /* PAAfterSalePersonalCenter(我的) */ = {
 			isa = PBXGroup;
 			children = (
 				72D84C521EA74834009A17AB /* Controllers */,
 				72D84C551EA74834009A17AB /* Models */,
 				72D84C561EA74834009A17AB /* Views */,
 			);
+			name = "PAAfterSalePersonalCenter(我的)";
 			path = PAAfterSalePersonalCenter;
 			sourceTree = "<group>";
 		};
@@ -1015,13 +1018,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		72D84C571EA74834009A17AB /* PAAfterSaleTask */ = {
+		72D84C571EA74834009A17AB /* PAAfterSaleTask(任务) */ = {
 			isa = PBXGroup;
 			children = (
 				72D84C581EA74834009A17AB /* Controllers */,
 				72D84C5B1EA74834009A17AB /* Models */,
 				72D84C5C1EA74834009A17AB /* Views */,
 			);
+			name = "PAAfterSaleTask(任务)";
 			path = PAAfterSaleTask;
 			sourceTree = "<group>";
 		};

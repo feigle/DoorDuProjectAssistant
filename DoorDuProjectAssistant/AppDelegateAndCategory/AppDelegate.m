@@ -45,7 +45,9 @@
 /**售后登录*/
 - (void)initAfterSaleRootVC
 {
-    
+    PAAfterSaleMainTabBarController * tabBarVC = [[PAAfterSaleMainTabBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
+    [self.window makeKeyAndVisible];
 }
 /**工程登录*/
 - (void)initProjectRootVC

@@ -7,7 +7,6 @@
 //
 
 #import "DDBaseViewController.h"
-#import "UIViewController+BackButtonHandler.h"
 #import "SDWebImageManager.h"
 #import "UIImage+LHDTools.h"
 
@@ -57,22 +56,6 @@
                                                  forBarPosition:UIBarPositionAny
                                                      barMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
-}
-- (void)doBackAction
-{
-    NSLog(@"viewControllers %lu\r\n",(unsigned long)self.navigationController.viewControllers.count);
-    if (self.navigationController.viewControllers.count > 1) {
-        [self.navigationController popViewControllerAnimated:YES];
-    } else {
-        [self dismissViewControllerAnimated:YES completion:^{
-        }];
-    }
-}
-
-- (BOOL)navigationShouldPopOnBackButton
-{
-    [self doBackAction];
-    return NO;
 }
 
 - (void)viewWillDisappear:(BOOL)animated{

@@ -17,6 +17,7 @@
 
 /**登录状态的宏定义*/
 #define KNOTIFICATION_LOGINCHANGE @"loginStatusChange"
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "GlobalUrlHeader.h"
 
 #import "SystemNSEnumHeader.h"
