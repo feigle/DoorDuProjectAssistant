@@ -110,6 +110,7 @@
 		72D84C601EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C541EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m */; };
 		72D84C611EA74834009A17AB /* PAAfterSaleTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C5A1EA74834009A17AB /* PAAfterSaleTaskViewController.m */; };
 		72D84C681EA7483B009A17AB /* PALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C651EA7483B009A17AB /* PALoginViewController.m */; };
+		72E03E311EA99E2B00691843 /* DDForbidOperationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -344,6 +345,8 @@
 		72D84C5A1EA74834009A17AB /* PAAfterSaleTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskViewController.m; sourceTree = "<group>"; };
 		72D84C641EA7483B009A17AB /* PALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALoginViewController.h; sourceTree = "<group>"; };
 		72D84C651EA7483B009A17AB /* PALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALoginViewController.m; sourceTree = "<group>"; };
+		72E03E2F1EA99E2B00691843 /* DDForbidOperationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDForbidOperationTextField.h; sourceTree = "<group>"; };
+		72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDForbidOperationTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -780,6 +783,8 @@
 				728DF6CB1EA4C39500AB68DD /* DDHorizontalButton.m */,
 				728DF6CC1EA4C39500AB68DD /* DDVerticalButton.h */,
 				728DF6CD1EA4C39500AB68DD /* DDVerticalButton.m */,
+				72E03E2F1EA99E2B00691843 /* DDForbidOperationTextField.h */,
+				72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */,
 			);
 			path = Inherit;
 			sourceTree = "<group>";
@@ -1311,6 +1316,7 @@
 				728DF72E1EA4E4C100AB68DD /* MJRefreshBackStateFooter.m in Sources */,
 				728DF7251EA4E4C100AB68DD /* MJRefreshBackFooter.m in Sources */,
 				728DF72A1EA4E4C100AB68DD /* MJRefreshAutoNormalFooter.m in Sources */,
+				72E03E311EA99E2B00691843 /* DDForbidOperationTextField.m in Sources */,
 				728DF7341EA4E4C100AB68DD /* NSBundle+MJRefresh.m in Sources */,
 				72D84C681EA7483B009A17AB /* PALoginViewController.m in Sources */,
 				72D84C1E1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.m in Sources */,

@@ -59,7 +59,7 @@
 - (UIButton *)loginButton
 {
     if (!_loginButton) {
-        _loginButton = [ControlManager buttonTitle:@"登录" font:font6Size(32/2.0) textColor:[UIColor whiteColor] frame:CGRectMake6(15, 0, kScreen6Width-30, 88/2.0) target:self selector:@selector(loginBtnClicked)];
+        _loginButton = [ControlManager buttonTitle:@"登录" font:font6Size(36/2.0) textColor:[UIColor whiteColor] frame:CGRectMake6(15, 0, kScreen6Width-30, 88/2.0) target:self selector:@selector(loginBtnClicked)];
         _loginButton.backgroundColor = navBarTintColor;
         ViewRadius(_loginButton, 4);
     }

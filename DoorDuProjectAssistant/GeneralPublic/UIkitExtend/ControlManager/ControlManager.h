@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DDForbidOperationTextField.h"
 
 @interface ControlManager : NSObject
 
