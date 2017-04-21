@@ -111,6 +111,11 @@
 		72D84C611EA74834009A17AB /* PAAfterSaleTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C5A1EA74834009A17AB /* PAAfterSaleTaskViewController.m */; };
 		72D84C681EA7483B009A17AB /* PALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C651EA7483B009A17AB /* PALoginViewController.m */; };
 		72E03E311EA99E2B00691843 /* DDForbidOperationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */; };
+		FE26305B1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE26305A1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets */; };
+		FE26306B1EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2630691EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m */; };
+		FE26306E1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE26306C1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m */; };
+		FE2630711EA9EB7200853F6E /* PASettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2630701EA9EB7200853F6E /* PASettingViewController.m */; };
+		FE2630751EA9F0D800853F6E /* PAUpdatePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2630741EA9F0D800853F6E /* PAUpdatePwdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,6 +352,15 @@
 		72D84C651EA7483B009A17AB /* PALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALoginViewController.m; sourceTree = "<group>"; };
 		72E03E2F1EA99E2B00691843 /* DDForbidOperationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDForbidOperationTextField.h; sourceTree = "<group>"; };
 		72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDForbidOperationTextField.m; sourceTree = "<group>"; };
+		FE26305A1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PAAfterSalePersonalCenterImages.xcassets; sourceTree = "<group>"; };
+		FE2630691EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAAboutProjectAssistantViewController.m; path = PAAboutProjectAssistantInfo/PAAboutProjectAssistantViewController.m; sourceTree = "<group>"; };
+		FE26306A1EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAAboutProjectAssistantViewController.h; path = PAAboutProjectAssistantInfo/PAAboutProjectAssistantViewController.h; sourceTree = "<group>"; };
+		FE26306C1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAUpdateUserInfoViewController.m; path = PAUpdateNickname/PAUpdateUserInfoViewController.m; sourceTree = "<group>"; };
+		FE26306D1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAUpdateUserInfoViewController.h; path = PAUpdateNickname/PAUpdateUserInfoViewController.h; sourceTree = "<group>"; };
+		FE26306F1EA9EB7200853F6E /* PASettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASettingViewController.h; sourceTree = "<group>"; };
+		FE2630701EA9EB7200853F6E /* PASettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASettingViewController.m; sourceTree = "<group>"; };
+		FE2630731EA9F0D800853F6E /* PAUpdatePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAUpdatePwdViewController.h; sourceTree = "<group>"; };
+		FE2630741EA9F0D800853F6E /* PAUpdatePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAUpdatePwdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -997,6 +1011,10 @@
 		72D84C511EA74834009A17AB /* PAAfterSalePersonalCenter(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				FE2630721EA9F07600853F6E /* PAUpdatePwd */,
+				FE2630681EA9EAEE00853F6E /* PASetting */,
+				FE2630641EA9E9EA00853F6E /* PAAboutProjectAssistantInfo */,
+				FE26305D1EA9DBC900853F6E /* PAUpdateUserInfo */,
 				72D84C521EA74834009A17AB /* Controllers */,
 				72D84C551EA74834009A17AB /* Models */,
 				72D84C561EA74834009A17AB /* Views */,
@@ -1010,6 +1028,7 @@
 			children = (
 				72D84C531EA74834009A17AB /* PAAfterSalePersonalCenterViewController.h */,
 				72D84C541EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m */,
+				FE26305A1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1094,6 +1113,42 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FE26305D1EA9DBC900853F6E /* PAUpdateUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FE26306C1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m */,
+				FE26306D1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.h */,
+			);
+			name = PAUpdateUserInfo;
+			sourceTree = "<group>";
+		};
+		FE2630641EA9E9EA00853F6E /* PAAboutProjectAssistantInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FE2630691EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m */,
+				FE26306A1EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.h */,
+			);
+			name = PAAboutProjectAssistantInfo;
+			sourceTree = "<group>";
+		};
+		FE2630681EA9EAEE00853F6E /* PASetting */ = {
+			isa = PBXGroup;
+			children = (
+				FE26306F1EA9EB7200853F6E /* PASettingViewController.h */,
+				FE2630701EA9EB7200853F6E /* PASettingViewController.m */,
+			);
+			path = PASetting;
+			sourceTree = "<group>";
+		};
+		FE2630721EA9F07600853F6E /* PAUpdatePwd */ = {
+			isa = PBXGroup;
+			children = (
+				FE2630731EA9F0D800853F6E /* PAUpdatePwdViewController.h */,
+				FE2630741EA9F0D800853F6E /* PAUpdatePwdViewController.m */,
+			);
+			path = PAUpdatePwd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1216,6 +1271,7 @@
 				728DF7321EA4E4C100AB68DD /* MJRefresh.bundle in Resources */,
 				728DF6581EA4B06400AB68DD /* Info.plist in Resources */,
 				72D84C5F1EA74834009A17AB /* PAAfterSaleMainTabBarImages.xcassets in Resources */,
+				FE26305B1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1248,6 +1304,7 @@
 				728DF6E81EA4CB3000AB68DD /* DDBaseViewController.m in Sources */,
 				728DF6B31EA4C38900AB68DD /* NSObject+LHDJSONCategories.m in Sources */,
 				728DF7301EA4E4C100AB68DD /* MJRefreshNormalHeader.m in Sources */,
+				FE26306E1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m in Sources */,
 				728DF62F1EA4AF0200AB68DD /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				728DF68D1EA4B22D00AB68DD /* SDImageCache.m in Sources */,
 				72D84C601EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m in Sources */,
@@ -1255,7 +1312,9 @@
 				728DF6D51EA4C39500AB68DD /* UIView+LHDClickedHandle.m in Sources */,
 				728DF6B41EA4C38900AB68DD /* NSObject+LHDObjectToString.m in Sources */,
 				728DF6E51EA4CA6B00AB68DD /* DDBaseModel.m in Sources */,
+				FE26306B1EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m in Sources */,
 				728DF65A1EA4B06400AB68DD /* JSONModelClassProperty.m in Sources */,
+				FE2630711EA9EB7200853F6E /* PASettingViewController.m in Sources */,
 				728DF68C1EA4B22D00AB68DD /* NSImage+WebCache.m in Sources */,
 				728DF68B1EA4B22D00AB68DD /* NSData+ImageContentType.m in Sources */,
 				728DF6D31EA4C39500AB68DD /* UIImageView+LHDSize.m in Sources */,
@@ -1317,6 +1376,7 @@
 				728DF7251EA4E4C100AB68DD /* MJRefreshBackFooter.m in Sources */,
 				728DF72A1EA4E4C100AB68DD /* MJRefreshAutoNormalFooter.m in Sources */,
 				72E03E311EA99E2B00691843 /* DDForbidOperationTextField.m in Sources */,
+				FE2630751EA9F0D800853F6E /* PAUpdatePwdViewController.m in Sources */,
 				728DF7341EA4E4C100AB68DD /* NSBundle+MJRefresh.m in Sources */,
 				72D84C681EA7483B009A17AB /* PALoginViewController.m in Sources */,
 				72D84C1E1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.m in Sources */,

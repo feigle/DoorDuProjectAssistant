@@ -28,5 +28,7 @@
 #import "LHDUIkitExtendHeader.h"
 #import "LHDFoundationExtendHeader.h"
 
+#import "SystemMacroHeader.h"
+
 #endif /* DoorDuProjectPrefixHeader_pch */
 #endif /* DoorDuProjectPrefixHeader_pch */
