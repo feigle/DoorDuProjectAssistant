@@ -83,7 +83,7 @@
     titleLabel.x6 = 15;
     [bgView addSubview:titleLabel];
     
-    UITextField * tf = [ControlManager textFieldWithFrame:CGRectMake6(titleLabel.right6+15, 0, bgView.width6-titleLabel.right6-30, font6Size(32/2.0).lineHeight) text:@"" font:font6Size(32/2.0) textColor:ColorHex(@"#3F3F3F") placeholder:placeholder];
+    UITextField * tf = [ControlManager textFieldForbidOperationWithFrame:CGRectMake6(titleLabel.right6+15, 0, bgView.width6-titleLabel.right6-30, font6Size(32/2.0).lineHeight) font:font6Size(32/2.0) textColor:ColorHex(@"#3F3F3F") placeholder:placeholder];
     tf.clearButtonMode = UITextFieldViewModeWhileEditing;
     tf.keyboardType = UIKeyboardTypeASCIICapable;
     tf.borderStyle = UITextBorderStyleNone;
