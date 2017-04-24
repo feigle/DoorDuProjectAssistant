@@ -1219,7 +1219,7 @@
 					728DF5DE1EA4573D00AB68DD = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 7G5HR36TYN;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1539,9 +1539,12 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DoorDuProjectAssistant/DoorDuProjectPrefixHeader.pch";
 				INFOPLIST_FILE = DoorDuProjectAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-----------.DoorDuProjectAssistant";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doordu.projectassistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "063ef0b4-ab54-48d7-9aa2-90c8476e0885";
+				PROVISIONING_PROFILE_SPECIFIER = DoorDuProjectAssistant;
 			};
 			name = Debug;
 		};
@@ -1550,6 +1553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DoorDuProjectAssistant/DoorDuProjectAssistant.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 7G5HR36TYN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1557,9 +1561,12 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DoorDuProjectAssistant/DoorDuProjectPrefixHeader.pch";
 				INFOPLIST_FILE = DoorDuProjectAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-----------.DoorDuProjectAssistant";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doordu.projectassistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7748d245-1ccd-48dc-a63c-258b14adcc57";
+				PROVISIONING_PROFILE_SPECIFIER = DoorDuProjectAssistant_Distribution;
 			};
 			name = Release;
 		};
