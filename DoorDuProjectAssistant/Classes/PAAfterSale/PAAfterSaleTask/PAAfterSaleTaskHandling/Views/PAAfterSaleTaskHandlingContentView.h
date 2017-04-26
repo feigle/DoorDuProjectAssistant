@@ -6,8 +6,10 @@
 //  Copyright © 2017年 深圳市多度科技有限公司. All rights reserved.
 //
 
-#import "DDBaseView.h"
+#import "DDBaseScrollView.h"
 
-@interface PAAfterSaleTaskHandlingContentView : DDBaseView
+@interface PAAfterSaleTaskHandlingContentView : DDBaseScrollView
+
+
 
 @end

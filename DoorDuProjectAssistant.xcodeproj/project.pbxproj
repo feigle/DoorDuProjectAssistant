@@ -16,6 +16,7 @@
 		721CD19C1EA899B60049068C /* UITabBar+LHDExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD19B1EA899B60049068C /* UITabBar+LHDExtend.m */; };
 		723E99701EB07F6B003880CC /* PAAfterSaleTask.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723E996F1EB07F6B003880CC /* PAAfterSaleTask.xcassets */; };
 		723E99731EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E99721EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m */; };
+		723E99761EB09DD8003880CC /* DDBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E99751EB09DD8003880CC /* DDBaseScrollView.m */; };
 		728DF5E41EA4573D00AB68DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF5E31EA4573D00AB68DD /* main.m */; };
 		728DF5EF1EA4573D00AB68DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5EE1EA4573D00AB68DD /* Assets.xcassets */; };
 		728DF5F21EA4573D00AB68DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5F01EA4573D00AB68DD /* LaunchScreen.storyboard */; };
@@ -157,6 +158,8 @@
 		723E996F1EB07F6B003880CC /* PAAfterSaleTask.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PAAfterSaleTask.xcassets; sourceTree = "<group>"; };
 		723E99711EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskHandlingContentView.h; sourceTree = "<group>"; };
 		723E99721EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskHandlingContentView.m; sourceTree = "<group>"; };
+		723E99741EB09DD8003880CC /* DDBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBaseScrollView.h; sourceTree = "<group>"; };
+		723E99751EB09DD8003880CC /* DDBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBaseScrollView.m; sourceTree = "<group>"; };
 		728DF5DF1EA4573D00AB68DD /* DoorDuProjectAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDuProjectAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728DF5E31EA4573D00AB68DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		728DF5EE1EA4573D00AB68DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -839,6 +842,8 @@
 				728DF6DD1EA4C89500AB68DD /* DDBaseView.m */,
 				728DF6DF1EA4C99900AB68DD /* DDBaseTableViewCell.h */,
 				728DF6E01EA4C99900AB68DD /* DDBaseTableViewCell.m */,
+				723E99741EB09DD8003880CC /* DDBaseScrollView.h */,
+				723E99751EB09DD8003880CC /* DDBaseScrollView.m */,
 			);
 			name = "DDBaseView(基础view父类)";
 			path = DDBaseView;
@@ -1467,6 +1472,7 @@
 				728DF7301EA4E4C100AB68DD /* MJRefreshNormalHeader.m in Sources */,
 				FE26306E1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m in Sources */,
 				728DF62F1EA4AF0200AB68DD /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				723E99761EB09DD8003880CC /* DDBaseScrollView.m in Sources */,
 				728DF68D1EA4B22D00AB68DD /* SDImageCache.m in Sources */,
 				7292CD8C1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.m in Sources */,
 				72D84C601EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m in Sources */,

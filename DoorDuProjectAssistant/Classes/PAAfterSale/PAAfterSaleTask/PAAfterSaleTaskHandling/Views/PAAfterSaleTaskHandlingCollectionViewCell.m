@@ -7,6 +7,7 @@
 //
 
 #import "PAAfterSaleTaskHandlingCollectionViewCell.h"
+#import "PAAfterSaleTaskHandlingContentView.h"
 
 @interface PAAfterSaleTaskHandlingCollectionViewCell ()
 
@@ -21,6 +22,9 @@
 @property (nonatomic,strong) UIButton * lookOverTaskButton;
 /**任务反馈*/
 @property (nonatomic,strong) UIButton * taskFeedbackButton;
+
+/**用与显示内容背景view*/
+@property (nonatomic,strong) PAAfterSaleTaskHandlingContentView * taskContentView;
 
 @end
 
@@ -68,7 +72,7 @@
     self.taskStateImageView.right = self.topBgView.width;
     self.taskStateImageView.image = [UIImage imageNamed:@"PAAfterSaleTaskurgencyTaskImage"];
 #pragma mark - 布局中间内容view
-    
+    [self.contentView addSubview:self.taskContentView];
 #pragma mark - 布局底部的view
     [self.contentView addSubview:self.lookOverTaskButton];
     [self.contentView addSubview:self.taskFeedbackButton];
@@ -116,12 +120,20 @@
 - (UIButton *)taskFeedbackButton
 {
     if (!_taskFeedbackButton) {
-        
         _taskFeedbackButton = [ControlManager buttonTitle:@"任务反馈" font:font6Size(28/2.0) textColor:[UIColor whiteColor] frame:CGRectMake6(15, 0, (self.topBgView.width6-45)/2.0, 76/2.0) target:self selector:@selector(taskFeedbackButtonClicked)];
         _taskFeedbackButton.backgroundColor = navBarTintColor;
         ViewRadius(_taskFeedbackButton, 4);
     }
     return _taskFeedbackButton;
+}
+- (PAAfterSaleTaskHandlingContentView *)taskContentView
+{
+    if (!_taskContentView) {
+        _taskContentView = [[PAAfterSaleTaskHandlingContentView alloc] initWithFrame:CGRectMake(0, self.topBgView.bottom, self.contentView.width, self.contentView.height-self.topBgView.height - self.taskFeedbackButton.height-30*kScreen6ScaleH-10)];
+        _taskContentView.backgroundColor = [UIColor orangeColor];
+        _taskContentView.contentSize = CGSizeMake(0, KScreenHeight);
+    }
+    return _taskContentView;
 }
 
 @end
