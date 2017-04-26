@@ -42,4 +42,9 @@
 #define NSLog(fmt, ...)   NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #endif
 
+
+#define WeakSelf typeof(self) __weak weakSelf = self;
+#define StrongSelf typeof(weakSelf) __strong strongSelf = weakSelf;
+
+
 #endif /* SystemMacroHeader_h */

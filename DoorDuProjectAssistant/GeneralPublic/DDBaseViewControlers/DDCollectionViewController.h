@@ -8,6 +8,14 @@
 
 #import "HttpRequestViewController.h"
 
-@interface DDCollectionViewController : HttpRequestViewController
+@interface DDCollectionViewController : HttpRequestViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+
+@property (nonatomic,strong) UICollectionView *collectionView;
+
+/**必须是流式布局才这样用*/
+@property (nonatomic,strong) UICollectionViewLayout *customLayout;
+
+@property (nonatomic,assign) UICollectionViewScrollDirection collectionDirection;
+
 
 @end

@@ -75,7 +75,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Returns an NSString from base64 encoded string.
- @param base64Encoding The encoded string.
  */
 + (nullable NSString *)stringWithBase64EncodedString:(NSString *)base64EncodedString;
 

@@ -55,7 +55,9 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage createImageWithColor:[UIColor whiteColor] size:CGSizeMake(1, 1)]
                                                  forBarPosition:UIBarPositionAny
                                                      barMetrics:UIBarMetricsDefault];
-    [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
+    /**这样去除下划线- 灰色的分割线*/
+//    [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
+    [self.navigationController.navigationBar setShadowImage:[UIImage createImageWithColor:[UIColor colorWithRed:0.97 green:0.96 blue:0.97 alpha:1.00] size:CGSizeMake(1, 1)]];
 }
 
 - (void)viewWillDisappear:(BOOL)animated{

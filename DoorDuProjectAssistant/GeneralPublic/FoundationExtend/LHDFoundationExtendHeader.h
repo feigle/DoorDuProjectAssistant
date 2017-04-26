@@ -13,5 +13,6 @@
 #import "NSObject+LHDObjectToString.h"
 #import "NSString+LHDHandleTools.h"
 #import "NSData+LHDHandleTooles.h"
+#import "NSAttributedString+LHDHandleTools.h"
 
 #endif /* LHDFoundationExtendHeader_h */

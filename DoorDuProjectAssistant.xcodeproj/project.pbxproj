@@ -14,6 +14,8 @@
 		721CD1871EA856DB0049068C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD1861EA856DB0049068C /* libc++.tbd */; };
 		721CD18A1EA857130049068C /* AppDelegate+ConfigThirdLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */; };
 		721CD19C1EA899B60049068C /* UITabBar+LHDExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD19B1EA899B60049068C /* UITabBar+LHDExtend.m */; };
+		723E99701EB07F6B003880CC /* PAAfterSaleTask.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723E996F1EB07F6B003880CC /* PAAfterSaleTask.xcassets */; };
+		723E99731EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E99721EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m */; };
 		728DF5E41EA4573D00AB68DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF5E31EA4573D00AB68DD /* main.m */; };
 		728DF5EF1EA4573D00AB68DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5EE1EA4573D00AB68DD /* Assets.xcassets */; };
 		728DF5F21EA4573D00AB68DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DF5F01EA4573D00AB68DD /* LaunchScreen.storyboard */; };
@@ -102,15 +104,22 @@
 		728DF7351EA4E4C100AB68DD /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF71F1EA4E4C100AB68DD /* UIScrollView+MJExtension.m */; };
 		728DF7361EA4E4C100AB68DD /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF7211EA4E4C100AB68DD /* UIScrollView+MJRefresh.m */; };
 		728DF7371EA4E4C100AB68DD /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 728DF7231EA4E4C100AB68DD /* UIView+MJExtension.m */; };
+		7292CD891EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7292CD881EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.m */; };
+		7292CD8C1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7292CD8B1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.m */; };
+		72D3AE981EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE971EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.m */; };
+		72D3AEA41EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AEA31EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.m */; };
+		72D3AEA71EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AEA61EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.m */; };
+		72D3AEAA1EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AEA91EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.m */; };
 		72D84C1E1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C1D1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.m */; };
 		72D84C441EA74060009A17AB /* DDUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C431EA74060009A17AB /* DDUserDefaults.m */; };
 		72D84C5D1EA74834009A17AB /* PAAfterSaleHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C491EA74834009A17AB /* PAAfterSaleHomePageViewController.m */; };
 		72D84C5E1EA74834009A17AB /* PAAfterSaleMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C4F1EA74834009A17AB /* PAAfterSaleMainTabBarController.m */; };
 		72D84C5F1EA74834009A17AB /* PAAfterSaleMainTabBarImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D84C501EA74834009A17AB /* PAAfterSaleMainTabBarImages.xcassets */; };
 		72D84C601EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C541EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m */; };
-		72D84C611EA74834009A17AB /* PAAfterSaleTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C5A1EA74834009A17AB /* PAAfterSaleTaskViewController.m */; };
 		72D84C681EA7483B009A17AB /* PALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D84C651EA7483B009A17AB /* PALoginViewController.m */; };
 		72E03E311EA99E2B00691843 /* DDForbidOperationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */; };
+		72EA8D8B1EADA7D600676FBD /* PAAfterSaleTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EA8D851EADA7D600676FBD /* PAAfterSaleTaskViewController.m */; };
+		72EA8D8E1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EA8D8D1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.m */; };
 		FE26305B1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE26305A1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets */; };
 		FE26306B1EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2630691EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m */; };
 		FE26306E1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE26306C1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m */; };
@@ -145,6 +154,9 @@
 		721CD1891EA857130049068C /* AppDelegate+ConfigThirdLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ConfigThirdLibrary.m"; sourceTree = "<group>"; };
 		721CD19A1EA899B60049068C /* UITabBar+LHDExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+LHDExtend.h"; sourceTree = "<group>"; };
 		721CD19B1EA899B60049068C /* UITabBar+LHDExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+LHDExtend.m"; sourceTree = "<group>"; };
+		723E996F1EB07F6B003880CC /* PAAfterSaleTask.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PAAfterSaleTask.xcassets; sourceTree = "<group>"; };
+		723E99711EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskHandlingContentView.h; sourceTree = "<group>"; };
+		723E99721EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskHandlingContentView.m; sourceTree = "<group>"; };
 		728DF5DF1EA4573D00AB68DD /* DoorDuProjectAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDuProjectAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728DF5E31EA4573D00AB68DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		728DF5EE1EA4573D00AB68DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -330,6 +342,18 @@
 		728DF7211EA4E4C100AB68DD /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		728DF7221EA4E4C100AB68DD /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		728DF7231EA4E4C100AB68DD /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		7292CD871EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskHandlingFlowLayout.h; sourceTree = "<group>"; };
+		7292CD881EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskHandlingFlowLayout.m; sourceTree = "<group>"; };
+		7292CD8A1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskHandlingCollectionViewCell.h; sourceTree = "<group>"; };
+		7292CD8B1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskHandlingCollectionViewCell.m; sourceTree = "<group>"; };
+		72D3AE961EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LHDHandleTools.h"; sourceTree = "<group>"; };
+		72D3AE971EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LHDHandleTools.m"; sourceTree = "<group>"; };
+		72D3AEA21EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskResolvedViewController.h; sourceTree = "<group>"; };
+		72D3AEA31EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskResolvedViewController.m; sourceTree = "<group>"; };
+		72D3AEA51EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskHandlingViewController.h; sourceTree = "<group>"; };
+		72D3AEA61EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskHandlingViewController.m; sourceTree = "<group>"; };
+		72D3AEA81EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskClosedViewController.h; sourceTree = "<group>"; };
+		72D3AEA91EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskClosedViewController.m; sourceTree = "<group>"; };
 		72D84C1C1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MonitorLoginStatus.h"; sourceTree = "<group>"; };
 		72D84C1D1EA6FC05009A17AB /* AppDelegate+MonitorLoginStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MonitorLoginStatus.m"; sourceTree = "<group>"; };
 		72D84C3B1EA7171F009A17AB /* SystemStaticInlineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemStaticInlineHeader.h; sourceTree = "<group>"; };
@@ -346,12 +370,14 @@
 		72D84C501EA74834009A17AB /* PAAfterSaleMainTabBarImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PAAfterSaleMainTabBarImages.xcassets; sourceTree = "<group>"; };
 		72D84C531EA74834009A17AB /* PAAfterSalePersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSalePersonalCenterViewController.h; sourceTree = "<group>"; };
 		72D84C541EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSalePersonalCenterViewController.m; sourceTree = "<group>"; };
-		72D84C591EA74834009A17AB /* PAAfterSaleTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskViewController.h; sourceTree = "<group>"; };
-		72D84C5A1EA74834009A17AB /* PAAfterSaleTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskViewController.m; sourceTree = "<group>"; };
 		72D84C641EA7483B009A17AB /* PALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALoginViewController.h; sourceTree = "<group>"; };
 		72D84C651EA7483B009A17AB /* PALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALoginViewController.m; sourceTree = "<group>"; };
 		72E03E2F1EA99E2B00691843 /* DDForbidOperationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDForbidOperationTextField.h; sourceTree = "<group>"; };
 		72E03E301EA99E2B00691843 /* DDForbidOperationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDForbidOperationTextField.m; sourceTree = "<group>"; };
+		72EA8D841EADA7D600676FBD /* PAAfterSaleTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskViewController.h; sourceTree = "<group>"; };
+		72EA8D851EADA7D600676FBD /* PAAfterSaleTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskViewController.m; sourceTree = "<group>"; };
+		72EA8D8C1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAfterSaleTaskSelectorView.h; sourceTree = "<group>"; };
+		72EA8D8D1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAfterSaleTaskSelectorView.m; sourceTree = "<group>"; };
 		FE26305A1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PAAfterSalePersonalCenterImages.xcassets; sourceTree = "<group>"; };
 		FE2630691EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAAboutProjectAssistantViewController.m; path = PAAboutProjectAssistantInfo/PAAboutProjectAssistantViewController.m; sourceTree = "<group>"; };
 		FE26306A1EA9EB4D00853F6E /* PAAboutProjectAssistantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAAboutProjectAssistantViewController.h; path = PAAboutProjectAssistantInfo/PAAboutProjectAssistantViewController.h; sourceTree = "<group>"; };
@@ -528,6 +554,7 @@
 		728DF61D1EA4A3E800AB68DD /* GeneralPublic(通用) */ = {
 			isa = PBXGroup;
 			children = (
+				7292CD861EAF5CDF00A84936 /* CommonCollectionFlowLayout(coollection的layout) */,
 				72D84C411EA73E60009A17AB /* DDUserDefaults(记录简单的数据存储) */,
 				728DF6E21EA4CA4800AB68DD /* DDBaseModel(基础数据模型) */,
 				728DF6DA1EA4C77700AB68DD /* AllKindsOfHeaders(各种头文件) */,
@@ -743,6 +770,8 @@
 				728DF6AE1EA4C38900AB68DD /* NSObject+LHDObjectToString.m */,
 				728DF6AF1EA4C38900AB68DD /* NSString+LHDHandleTools.h */,
 				728DF6B01EA4C38900AB68DD /* NSString+LHDHandleTools.m */,
+				72D3AE961EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.h */,
+				72D3AE971EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -933,6 +962,89 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		7292CD861EAF5CDF00A84936 /* CommonCollectionFlowLayout(coollection的layout) */ = {
+			isa = PBXGroup;
+			children = (
+				7292CD871EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.h */,
+				7292CD881EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.m */,
+			);
+			name = "CommonCollectionFlowLayout(coollection的layout)";
+			path = CommonCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		72D3AE991EAF38260024B3F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72D3AE9A1EAF38260024B3F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AEA81EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.h */,
+				72D3AEA91EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72D3AE9B1EAF38260024B3F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72D3AE9C1EAF382D0024B3F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72D3AE9D1EAF382D0024B3F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AEA51EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.h */,
+				72D3AEA61EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72D3AE9E1EAF382D0024B3F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7292CD8A1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.h */,
+				7292CD8B1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.m */,
+				723E99711EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.h */,
+				723E99721EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72D3AE9F1EAF38340024B3F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72D3AEA01EAF38340024B3F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AEA21EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.h */,
+				72D3AEA31EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72D3AEA11EAF38340024B3F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		72D84C411EA73E60009A17AB /* DDUserDefaults(记录简单的数据存储) */ = {
 			isa = PBXGroup;
 			children = (
@@ -946,10 +1058,10 @@
 		72D84C451EA7469E009A17AB /* PAAfterSale(售后) */ = {
 			isa = PBXGroup;
 			children = (
+				72EA8D811EADA7D600676FBD /* PAAfterSaleTask(任务) */,
 				72D84C4C1EA74834009A17AB /* PAAfterSaleMainTabBarController(控制器) */,
 				72D84C461EA74834009A17AB /* PAAfterSaleHomePage(主页) */,
 				72D84C511EA74834009A17AB /* PAAfterSalePersonalCenter(我的) */,
-				72D84C571EA74834009A17AB /* PAAfterSaleTask(任务) */,
 			);
 			name = "PAAfterSale(售后)";
 			path = PAAfterSale;
@@ -1047,40 +1159,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		72D84C571EA74834009A17AB /* PAAfterSaleTask(任务) */ = {
-			isa = PBXGroup;
-			children = (
-				72D84C581EA74834009A17AB /* Controllers */,
-				72D84C5B1EA74834009A17AB /* Models */,
-				72D84C5C1EA74834009A17AB /* Views */,
-			);
-			name = "PAAfterSaleTask(任务)";
-			path = PAAfterSaleTask;
-			sourceTree = "<group>";
-		};
-		72D84C581EA74834009A17AB /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				72D84C591EA74834009A17AB /* PAAfterSaleTaskViewController.h */,
-				72D84C5A1EA74834009A17AB /* PAAfterSaleTaskViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		72D84C5B1EA74834009A17AB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		72D84C5C1EA74834009A17AB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		72D84C621EA7483B009A17AB /* PALogin(登录) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1113,6 +1191,88 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		72EA8D811EADA7D600676FBD /* PAAfterSaleTask(任务) */ = {
+			isa = PBXGroup;
+			children = (
+				72EA8D821EADA7D600676FBD /* PAAfterSaleTask(任务管理器) */,
+				72EA8D881EADA7D600676FBD /* PAAfterSaleTaskClosed(已关闭) */,
+				72EA8D891EADA7D600676FBD /* PAAfterSaleTaskHandling(解决中) */,
+				72EA8D8A1EADA7D600676FBD /* PAAfterSaleTaskResolved(已解决) */,
+				723E996F1EB07F6B003880CC /* PAAfterSaleTask.xcassets */,
+			);
+			name = "PAAfterSaleTask(任务)";
+			path = PAAfterSaleTask;
+			sourceTree = "<group>";
+		};
+		72EA8D821EADA7D600676FBD /* PAAfterSaleTask(任务管理器) */ = {
+			isa = PBXGroup;
+			children = (
+				72EA8D831EADA7D600676FBD /* Controllers */,
+				72EA8D861EADA7D600676FBD /* Models */,
+				72EA8D871EADA7D600676FBD /* Views */,
+			);
+			name = "PAAfterSaleTask(任务管理器)";
+			path = PAAfterSaleTask;
+			sourceTree = "<group>";
+		};
+		72EA8D831EADA7D600676FBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72EA8D841EADA7D600676FBD /* PAAfterSaleTaskViewController.h */,
+				72EA8D851EADA7D600676FBD /* PAAfterSaleTaskViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72EA8D861EADA7D600676FBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72EA8D871EADA7D600676FBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72EA8D8C1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.h */,
+				72EA8D8D1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72EA8D881EADA7D600676FBD /* PAAfterSaleTaskClosed(已关闭) */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE991EAF38260024B3F5 /* Models */,
+				72D3AE9A1EAF38260024B3F5 /* ViewControllers */,
+				72D3AE9B1EAF38260024B3F5 /* Views */,
+			);
+			name = "PAAfterSaleTaskClosed(已关闭)";
+			path = PAAfterSaleTaskClosed;
+			sourceTree = "<group>";
+		};
+		72EA8D891EADA7D600676FBD /* PAAfterSaleTaskHandling(解决中) */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE9C1EAF382D0024B3F5 /* Models */,
+				72D3AE9D1EAF382D0024B3F5 /* ViewControllers */,
+				72D3AE9E1EAF382D0024B3F5 /* Views */,
+			);
+			name = "PAAfterSaleTaskHandling(解决中)";
+			path = PAAfterSaleTaskHandling;
+			sourceTree = "<group>";
+		};
+		72EA8D8A1EADA7D600676FBD /* PAAfterSaleTaskResolved(已解决) */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE9F1EAF38340024B3F5 /* Models */,
+				72D3AEA01EAF38340024B3F5 /* ViewControllers */,
+				72D3AEA11EAF38340024B3F5 /* Views */,
+			);
+			name = "PAAfterSaleTaskResolved(已解决)";
+			path = PAAfterSaleTaskResolved;
 			sourceTree = "<group>";
 		};
 		FE26305D1EA9DBC900853F6E /* PAUpdateUserInfo */ = {
@@ -1272,6 +1432,7 @@
 				728DF6581EA4B06400AB68DD /* Info.plist in Resources */,
 				72D84C5F1EA74834009A17AB /* PAAfterSaleMainTabBarImages.xcassets in Resources */,
 				FE26305B1EA9B57E00853F6E /* PAAfterSalePersonalCenterImages.xcassets in Resources */,
+				723E99701EB07F6B003880CC /* PAAfterSaleTask.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1307,6 +1468,7 @@
 				FE26306E1EA9EB5F00853F6E /* PAUpdateUserInfoViewController.m in Sources */,
 				728DF62F1EA4AF0200AB68DD /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				728DF68D1EA4B22D00AB68DD /* SDImageCache.m in Sources */,
+				7292CD8C1EAF5FE400A84936 /* PAAfterSaleTaskHandlingCollectionViewCell.m in Sources */,
 				72D84C601EA74834009A17AB /* PAAfterSalePersonalCenterViewController.m in Sources */,
 				728DF6431EA4B01900AB68DD /* AFNetworkReachabilityManager.m in Sources */,
 				728DF6D51EA4C39500AB68DD /* UIView+LHDClickedHandle.m in Sources */,
@@ -1334,6 +1496,8 @@
 				728DF7271EA4E4C100AB68DD /* MJRefreshFooter.m in Sources */,
 				728DF6331EA4AFED00AB68DD /* AutoCoding.m in Sources */,
 				721CD18A1EA857130049068C /* AppDelegate+ConfigThirdLibrary.m in Sources */,
+				72EA8D8B1EADA7D600676FBD /* PAAfterSaleTaskViewController.m in Sources */,
+				723E99731EB09C63003880CC /* PAAfterSaleTaskHandlingContentView.m in Sources */,
 				728DF69A1EA4B22D00AB68DD /* UIImageView+WebCache.m in Sources */,
 				728DF6F11EA4CFC700AB68DD /* DDTableViewController.m in Sources */,
 				728DF72C1EA4E4C100AB68DD /* MJRefreshBackGifFooter.m in Sources */,
@@ -1346,6 +1510,7 @@
 				728DF6441EA4B01900AB68DD /* AFSecurityPolicy.m in Sources */,
 				728DF6B21EA4C38900AB68DD /* NSData+LHDHandleTooles.m in Sources */,
 				728DF7291EA4E4C100AB68DD /* MJRefreshAutoGifFooter.m in Sources */,
+				72D3AE981EAF1E030024B3F5 /* NSAttributedString+LHDHandleTools.m in Sources */,
 				728DF6591EA4B06400AB68DD /* JSONModel.m in Sources */,
 				728DF6451EA4B01900AB68DD /* AFURLRequestSerialization.m in Sources */,
 				728DF65D1EA4B06400AB68DD /* JSONValueTransformer.m in Sources */,
@@ -1354,7 +1519,6 @@
 				728DF6F41EA4CFD700AB68DD /* DDCollectionViewController.m in Sources */,
 				728DF6B51EA4C38900AB68DD /* NSString+LHDHandleTools.m in Sources */,
 				728DF6891EA4B22D00AB68DD /* FLAnimatedImageView+WebCache.m in Sources */,
-				72D84C611EA74834009A17AB /* PAAfterSaleTaskViewController.m in Sources */,
 				728DF68A1EA4B22D00AB68DD /* MKAnnotationView+WebCache.m in Sources */,
 				728DF6A41EA4B51200AB68DD /* FLAnimatedImageView.m in Sources */,
 				728DF7241EA4E4C100AB68DD /* MJRefreshAutoFooter.m in Sources */,
@@ -1367,14 +1531,17 @@
 				728DF65C1EA4B06400AB68DD /* JSONKeyMapper.m in Sources */,
 				728DF7351EA4E4C100AB68DD /* UIScrollView+MJExtension.m in Sources */,
 				72D84C441EA74060009A17AB /* DDUserDefaults.m in Sources */,
+				7292CD891EAF5E3100A84936 /* PAAfterSaleTaskHandlingFlowLayout.m in Sources */,
 				728DF6EE1EA4CFB400AB68DD /* HttpRequestViewController.m in Sources */,
 				728DF6251EA4A45F00AB68DD /* UIView+DDFrame.m in Sources */,
 				728DF68E1EA4B22D00AB68DD /* SDImageCacheConfig.m in Sources */,
 				728DF6E11EA4C99900AB68DD /* DDBaseTableViewCell.m in Sources */,
+				72D3AEA71EAF38800024B3F5 /* PAAfterSaleTaskHandlingViewController.m in Sources */,
 				728DF6241EA4A45F00AB68DD /* DDScreenFitter.m in Sources */,
 				728DF72E1EA4E4C100AB68DD /* MJRefreshBackStateFooter.m in Sources */,
 				728DF7251EA4E4C100AB68DD /* MJRefreshBackFooter.m in Sources */,
 				728DF72A1EA4E4C100AB68DD /* MJRefreshAutoNormalFooter.m in Sources */,
+				72EA8D8E1EADA8C900676FBD /* PAAfterSaleTaskSelectorView.m in Sources */,
 				72E03E311EA99E2B00691843 /* DDForbidOperationTextField.m in Sources */,
 				FE2630751EA9F0D800853F6E /* PAUpdatePwdViewController.m in Sources */,
 				728DF7341EA4E4C100AB68DD /* NSBundle+MJRefresh.m in Sources */,
@@ -1386,8 +1553,10 @@
 				728DF6A31EA4B51200AB68DD /* FLAnimatedImage.m in Sources */,
 				728DF6D71EA4C39500AB68DD /* DDHorizontalButton.m in Sources */,
 				728DF6471EA4B01900AB68DD /* AFURLSessionManager.m in Sources */,
+				72D3AEA41EAF386E0024B3F5 /* PAAfterSaleTaskResolvedViewController.m in Sources */,
 				728DF7371EA4E4C100AB68DD /* UIView+MJExtension.m in Sources */,
 				728DF6991EA4B22D00AB68DD /* UIImageView+HighlightedWebCache.m in Sources */,
+				72D3AEAA1EAF38BE0024B3F5 /* PAAfterSaleTaskClosedViewController.m in Sources */,
 				728DF72D1EA4E4C100AB68DD /* MJRefreshBackNormalFooter.m in Sources */,
 				728DF6421EA4B01900AB68DD /* AFHTTPSessionManager.m in Sources */,
 				728DF6EB1EA4CF6000AB68DD /* HandleNavigationBarViewController.m in Sources */,
@@ -1539,6 +1708,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DoorDuProjectAssistant/DoorDuProjectPrefixHeader.pch";
 				INFOPLIST_FILE = DoorDuProjectAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-----------.DoorDuProjectAssistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1557,6 +1727,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DoorDuProjectAssistant/DoorDuProjectPrefixHeader.pch";
 				INFOPLIST_FILE = DoorDuProjectAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-----------.DoorDuProjectAssistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";

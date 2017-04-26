@@ -41,7 +41,7 @@
     if ([[UIScreen mainScreen ] bounds].size.width < 414.0 && [[UIScreen mainScreen ] bounds].size.height < 736.0 ) {//小于6p的屏幕
         _font6pScale = 2/3.0;
     } else {//大于等于6p的屏幕
-        _font6Scale = 1.5;
+        _font6Scale = 1.4;
     }
     NSLog(@"font6pScale :%lf",_font6Scale);
 }
