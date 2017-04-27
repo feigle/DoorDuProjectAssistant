@@ -8,6 +8,7 @@
 
 #import "DDBaseScrollView.h"
 
+/**任务--》解决中的任务 cell的内容view*/
 @interface PAAfterSaleTaskHandlingContentView : DDBaseScrollView
 
 

@@ -85,6 +85,7 @@
 }
 
 #pragma mark - 懒加载
+/**上面的背景view*/
 - (UIView *)topBgView
 {
     if (!_topBgView) {
@@ -92,6 +93,7 @@
     }
     return _topBgView;
 }
+/**任务状态*/
 - (UIImageView *)taskStateImageView
 {
     if (!_taskStateImageView) {
@@ -99,6 +101,7 @@
     }
     return _taskStateImageView;
 }
+/**任务编号*/
 - (UILabel *)serialNumberLabel
 {
     if (!_serialNumberLabel) {
@@ -109,6 +112,7 @@
     }
     return _serialNumberLabel;
 }
+/**查看任务*/
 - (UIButton *)lookOverTaskButton
 {
     if (!_lookOverTaskButton) {
@@ -117,6 +121,7 @@
     }
     return _lookOverTaskButton;
 }
+/**任务反馈*/
 - (UIButton *)taskFeedbackButton
 {
     if (!_taskFeedbackButton) {
@@ -130,7 +135,7 @@
 {
     if (!_taskContentView) {
         _taskContentView = [[PAAfterSaleTaskHandlingContentView alloc] initWithFrame:CGRectMake(0, self.topBgView.bottom, self.contentView.width, self.contentView.height-self.topBgView.height - self.taskFeedbackButton.height-30*kScreen6ScaleH-10)];
-        _taskContentView.backgroundColor = [UIColor orangeColor];
+        _taskContentView.backgroundColor = [UIColor whiteColor];
         _taskContentView.contentSize = CGSizeMake(0, KScreenHeight);
     }
     return _taskContentView;
